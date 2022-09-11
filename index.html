@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papier - Kamień - Nożyce</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="counters">
+        <div class="comp">KOMPUTER: <p id="left"></p></div>
+        <div class="you">TY: <p id="right"></p></div>
+        <div class="you">REMISY: <p id="draw"></p></div>
+
+    </div>
+
+    <div id="game_div">
+        <div id="random"></div>
+        <div><p id="answer"></p></div>
+        <div class="choice">
+            <button type="submit" id="kamien" onclick="play('KAMIEŃ')">KAMIEŃ</button>
+            <button type="submit" id="papier" onclick="play('PAPIER')">PAPIER</button>
+            <button type="submit" id="nozyce" onclick="play('NOŻYCE')">NOŻYCE</button>
+        </div>
+    </div>
+</body>
+
+</html>

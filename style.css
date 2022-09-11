@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+#game_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1d3557;
+    height: 100vh;
+}
+
+#random {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 600px;
+    height: 300px;
+    background-color: #f1faee;
+    font-size:18px;
+
+}
+#answer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    background-color: #b7b7a4;
+    color:black;
+    font-size:18px;
+
+}
+
+.counters{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    height:40px;
+    color:#f1faee;
+    font-size:18px;
+
+}
+
+.you, .comp{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.choice,
+.sumbit {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.choice button{
+    padding:10px 20px 10px 20px;   
+    background-color: #f1faee;
+    margin:10px;
+    border:1px solid #001219;
+    color: #001219;
+
+    
+}
